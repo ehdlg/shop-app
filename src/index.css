@@ -1,0 +1,36 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100vw;
+  min-width: 100vw;
+}
+
+.content {
+  position: relative;
+}

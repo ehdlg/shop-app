@@ -1,0 +1,54 @@
+/* Estilos base para el carrito de compras */
+.shop-cart {
+  position: absolute;
+  top: 0;
+  right: -650px; /* Comienza fuera de la pantalla */
+  width: 400px; /* Ancho del carrito */
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease-in-out;
+  text-align: center;
+}
+
+.cart-content {
+  position: relative;
+}
+
+.cart-header {
+  display: flex;
+  width: 95%;
+  margin: 1rem 0;
+  justify-content: end;
+}
+
+.close-cart {
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+}
+
+.close-cart:hover,
+.close-cart:focus {
+  fill: red;
+  transform: scale(1.1);
+}
+
+/* Estilos para mostrar el carrito cuando está abierto */
+.shop-cart.open {
+  right: 0;
+}
+
+/* Estilos para el botón de cerrar */
+.shop-cart .close-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.shop-cart .close-button:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,33 @@
+/* Estilos para el header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0; /* Color de fondo */
+  padding: 1rem 5rem;
+  position: sticky;
+}
+
+/* Estilos para el título */
+header h1 {
+  margin: 0; /* Elimina el margen predeterminado */
+  font-size: 1.5rem;
+  color: #333; /* Color del texto */
+}
+
+/* Estilos para los enlaces */
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #555; /* Color del texto de los enlaces */
+  transition: 0.3s ease-in;
+}
+
+header nav a:hover {
+  color: #000; /* Color del texto de los enlaces al pasar el ratón */
+}

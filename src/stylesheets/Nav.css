@@ -1,0 +1,56 @@
+/* Estilos para el NavBar */
+.menu {
+  display: flex;
+  justify-content: flex-end; /* Alinea los enlaces a la derecha */
+}
+
+ul {
+  list-style: none; /* Quita las viñetas de la lista */
+  padding: 0; /* Quita el relleno por defecto de la lista */
+  margin: 0; /* Quita el margen por defecto de la lista */
+  display: flex; /* Alinea los elementos en una fila */
+}
+
+li {
+  margin-left: 20px; /* Espaciado entre los elementos de la lista */
+}
+
+li:first-child {
+  margin-left: 0; /* Sin margen para el primer elemento */
+}
+
+a {
+  text-decoration: none;
+  color: #555; /* Color del texto de los enlaces */
+}
+
+a:hover {
+  color: #000; /* Color del texto de los enlaces al pasar el ratón */
+}
+
+.cart-svg {
+  transition: transform 0.3s ease-in;
+  margin-left: 1rem;
+}
+
+.cart-svg:hover {
+  transform: rotate(-15deg);
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-num-items {
+  background-color: #aaa;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  z-index: 10;
+  right: -10px;
+}
